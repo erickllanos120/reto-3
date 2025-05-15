@@ -15,13 +15,14 @@ en pseudocodigo se veria algo asi
 
 
 
-inicio
-  escribir("Ingrese un número entero mayor o igual a 2:")
-  leer n
+    
+    inicio
+     escribir("Ingrese un número entero mayor o igual a 2:")
+    leer n
+  
+    Crear una lista llamada 'numeros' con los valores desde 2 hasta n
 
-  Crear una lista llamada 'numeros' con los valores desde 2 hasta n
-
-  Para cada i en numeros hacer
+    Para cada i en numeros hacer
     Si i * i > n entonces
       salir del ciclo
     Fin si
@@ -29,15 +30,15 @@ inicio
       Si x > i y x mod i == 0 entonces
         tachar j de la lista (es decir, eliminarlo o marcarlo como no primo)
       Fin si
-  Fin 
+    Fin 
 
-  escribir("Los números primos hasta", x, "son:")
-  Para cada elemento en numeros hacer
+    escribir("Los números primos hasta", x, "son:")
+    Para cada elemento en numeros hacer
     Si el número no está tachado entonces
       escribir el número
     Fin si
-  Fin para
-fin
+    Fin para
+    fin
 
 
 el diagrama se veria algo asi
